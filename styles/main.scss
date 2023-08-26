@@ -338,21 +338,26 @@ border-radius: 0;
             top: 10px;
             left: 10px;
          }
-          i{
-            transition: all .3s;
-            margin-top: 2rem;
-            width: 40px;
-            height: 40px;
-            @include centering();
-            border: 1px solid $primaryColor;
-            border-radius: 50%;
-            color: $primaryColor;
-        &:hover{
-            scale: 1.2;
-            background-color: $primaryLightColor;
-            border-color:$primaryColor ;
-        }
-          }
+         a{
+            text-decoration: none;
+            i{
+                transition: all .3s;
+                margin-top: 2rem;
+                width: 40px;
+                height: 40px;
+                @include centering();
+                border: 1px solid $primaryColor;
+                border-radius: 50%;
+                color: $primaryColor;
+            &:hover{
+                scale: 1.2;
+                background-color: $primaryLightColor;
+                border-color:$primaryColor ;
+            }
+              }
+         }
+
+         
           h5{
             padding: 1rem;
             border-bottom: 1px solid $primaryColor;
